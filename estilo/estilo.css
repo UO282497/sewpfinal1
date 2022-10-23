@@ -1,0 +1,143 @@
+/************************
+/* Autor: Sergio del Rey
+/* Descripción
+/************************/
+/*Especifidad 001*/
+body{ 
+    font-family: Tahoma, sans-serif;
+    color: #000000;
+    background-color: #b8b08d;
+    font-size: 1.5em;
+
+}
+/*Especifidad 001*/
+main{
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 2em;
+    height: auto;
+}
+/*Especifidad 001*/
+table {
+font-family: Tahoma, sans-serif;
+  color: #000000;
+  background-color: #04524e;
+  display: table;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-color: #04524e98;
+  border-style: groove;
+  border-radius: 1em;
+  border-width: 1em;
+}
+/*Especifidad 001*/
+header {
+    font-family: Tahoma, sans-serif;
+    color: #000000;
+    background-color: #b8b08d;
+}
+/*Especifidad 001*/
+h1 {
+    color: #D8D8F6;    
+    background-color:#283845; 
+    text-transform: uppercase;
+    padding: 0.5em; 
+    display: flex;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;    
+    border-color: #04524e;
+    border-radius: 0.5em;
+    border-width: 0.5em;
+    border-spacing: 0.5em;
+    border-style: double;
+}
+/*Especifidad 001*/
+h2 {
+    color: #D8D8F6;    
+    background-color:rgb(209, 82, 53); 
+    text-transform: uppercase;
+    padding: 1em;   
+    display: flex;  
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-color: #744909;
+    border-radius: 1em;
+    border-width: 1em;
+    border-spacing: 1em;
+    border-style: double;
+}
+/*Especifidad 001*/
+tr{
+  font-family: Tahoma, sans-serif;
+  color: #D8D8F6;
+  background-color: #283845;
+}
+/*Especifidad 001*/
+td{
+  font-family: Tahoma, sans-serif;
+  color: #D8D8F6;
+  background-color: #283845;
+}
+/*Especifidad 001*/
+caption{
+    color: #D8D8F6;    
+    background-color:#283845; 
+    text-transform: uppercase;
+    padding: 1em; 
+    margin-top: 1em;
+    margin-bottom:1em;    
+    border-color: #04524e;
+    border-radius: 1em;
+    border-width: 1em;
+    border-spacing: 1em;
+    border-style: double;
+    
+}
+/*Especifidad 001*/
+form{
+  font-family: Tahoma, sans-serif;
+  color: #000000;
+  background-color: #7fcaf5;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/*Especifidad 001*/
+a{
+  font-family: Tahoma, sans-serif;
+  color: #020822;
+  background-color: #b8b08d;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 2em;
+}
+/*Especifidad 001*/
+ul{
+  font-family: Tahoma, sans-serif;
+  color: #020822;
+  background-color: #b8b08d;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+/*Especifidad 001*/
+li{
+  margin-top: 2em;
+}
+/*Especifidad 001*/
+footer{
+    margin-left: 1em;
+}
+/*Especifidad 001*/
+video{
+  width: 60%;
+  height: auto;
+}
+/*Especifidad 001*/
+video{
+  width: 60%;
+  height: auto;
+}
+/*Especifidad 001*/
+img{
+  width: 60%;
+  height: auto;
+}

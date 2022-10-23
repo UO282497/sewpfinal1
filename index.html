@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ember.js</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Sergio" />
+    <meta name ="description" content ="Introducción con datos generales sobre ember.js" />
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista de las palabras clave del mismo separadas por comas" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    
+<!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+<link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+        <li><a href=index.html tabindex="1" accesskey="i">Introducción</a></li>
+        <li><a href=historia.html tabindex="2" accesskey="h">Historia</a></li>
+        <li><a href=pila.html tabindex="3" accesskey="p">Pila</a></li>
+        <li><a href=futuro.html tabindex="5" accesskey="f">Futuro</a></li>
+        </ul>
+    </nav>
+<main>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <h1>Introducción a ember.js</h1>
+    <p>Ember.js es un marco web JavaScript de código abierto que utiliza un patrón de servicio de componentes. Permite a los desarrolladores crear aplicaciones web escalables de una sola página mediante la incorporación de modismos comunes, mejores prácticas y patrones de otros patrones del ecosistema de aplicaciones de una sola página en el marco.
+    Ember se usa en muchos sitios web, incluidos HashiCorp , DigitalOcean , Apple Music , Square, Inc. , Intercom , Discourse , Groupon , LinkedIn , Live Nation , Ghost , Nordstrom y Twitch . Aunque se considera principalmente un marco para la web, también es posible crear aplicaciones de escritorio y móviles con Ember cuando se utiliza un patrón de aplicación híbrido. El ejemplo más notable de una aplicación de escritorio Ember es Apple Music , una función de la aplicación de escritorio iTunes.</p>
+    <p><a href="https://emberjs.com/">Página web de Ember.js.</a></p>
+    <h1>Diseño</h1>
+    <p>
+     Según la empresa, Ember consta de cinco conceptos clave:</p>
+
+    <h2>Rutas</h2>
+    <p>En Ember, el estado de una aplicación está representado por una URL. Cada URL tiene un objeto de ruta correspondiente que controla lo que es visible para el usuario.</p>
+
+    <h2>Modelos</h2>
+    <p>Cada ruta tiene un modelo asociado, que contiene los datos asociados al estado actual de la aplicación. Si bien se puede usar window.fetch para cargar objetos JSON desde un servidor y usar esos objetos como modelos, la mayoría de las aplicaciones usan una biblioteca de modelos como Ember Data para manejar esto.</p>
+
+    <h2>Plantillas</h2>
+    <p>Las plantillas se utilizan para construir el HTML de la aplicación y se escriben con el lenguaje de plantillas HTMLBars. (HTMLBars es una variación de Handlebars que crea elementos DOM en lugar de una cadena).</p>
+
+    <h2>Componentes</h2>
+    <p>Un componente es una etiqueta HTML personalizada. El comportamiento se implementa usando JavaScript y su apariencia se define usando plantillas HTMLBars. Los componentes "poseen" sus datos. También se pueden anidar y pueden comunicarse con sus componentes principales a través de acciones (eventos). Otras bibliotecas de componentes, como Polymer, también se pueden usar con Ember.
+    Servicios. Los servicios son solo objetos únicos para almacenar datos de larga duración, como sesiones de usuario. Ember también proporciona inyección de dependencia, flujo de datos unidireccional declarativo, propiedades rastreadas y plantillas de actualización automática.</p>
+
+    <p>Vídeo corto sobre la estructura de Ember.js</p>
+    <video controls autoplay>
+        <source src="multimedia/videoEmbler.mp4" type="video/mp4">
+    </video>
+    
+        
+
+</main>
+    <footer>
+        <img src="images/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="images/CSS3.png"  alt="CSS Válido!"  />
+  </footer>
+</body>
+</html>

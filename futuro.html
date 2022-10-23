@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Futuro</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Sergio" />
+    <meta name ="description" content ="Futuro de ember.js, y formulario de opinión" />
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista de las palabras clave del mismo separadas por comas" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    
+<!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+<link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+        <li><a href=index.html tabindex="1" accesskey="i">Introducción</a></li>
+        <li><a href=historia.html tabindex="2" accesskey="h">Historia</a></li>
+        <li><a href=pila.html tabindex="3" accesskey="p">Pila</a></li>
+        <li><a href=futuro.html tabindex="5" accesskey="f">Futuro</a></li>
+        </ul>
+    </nav>
+<main>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <h1>Desarrollo futuro</h1>
+    <p>El estado del proyecto se puede rastrear a través de las actas de las reuniones del equipo central. Sin embargo, los cambios importantes en Ember pasan por el proceso de solicitud de comentarios. [55] Esto le da a la comunidad de Ember la oportunidad de dar su opinión sobre nuevas propuestas. Los RFC notables incluyen: </p>
+    <ul>
+        <li>Motores. Los motores permiten que varias aplicaciones lógicas se integren en una sola aplicación desde la perspectiva del usuario. Actualmente lanzado como un complemento experimental.</li>
+        <li>Mejoras en el ciclo de lanzamiento. Entre otras cosas, propone cambios en Ember CLI para admitir "compilaciones esbeltas", que eliminarán las funciones obsoletas y no utilizadas.</li>
+        <li>Enfoque de salida. Hacer que Ember sea accesible por defecto. Este RFC tiene como objetivo mejorar la experiencia del usuario para las personas que usan lectores de pantalla.</li>
+    </ul>
+    <p>Desarollador de Ember.js hablando sobre su idea inicial, conectándola con sus proyectos a futuro:</p>
+    <audio controls autoplay>
+        <source src="multimedia/EmberTheDocumentary.mp3" type="audio/mp3">
+    </audio>
+    <h1>Encuesta de opinión</h1>
+    <form>
+        <p><label for = "name">Nombre de usuario: <input id = "name" type = text></label></p>
+        <p><label for = "email">Correo electrónico: <input id = "email" type= email></label></p>
+        <fieldset>
+            <legend>¿Como valoraría el rendimiento de Ember.js?</legend>
+            <p><label for = "rendimiento1"> <input id = "rendimiento1" type=radio name=rendimiento> Muy lento </label></p>
+            <p><label for = "rendimiento2"> <input id = "rendimiento2" type=radio name=rendimiento> Algo más lento que los demás </label></p>
+            <p><label for = "rendimiento3"> <input id = "rendimiento3" type=radio name=rendimiento> Parecido a los demás </label></p>
+            <p><label for = "rendimiento4"> <input id = "rendimiento4" type=radio name=rendimiento> Algo más rápido que los demás </label></p>
+            <p><label for = "rendimiento5"> <input id = "rendimiento5" type=radio name=rendimiento> Muy rápido </label></p>
+        </fieldset>
+        <fieldset>
+            <legend> ¿Para qué páginas web utilizaría Ember.js? </legend>
+            <p><label for ="usoweb1"> <input id="usoweb1" type=checkbox> Uso personal </label></p>
+            <p><label for ="usoweb2"> <input id="usoweb2" type=checkbox> Uso profesional </label></p>
+            <p><label for ="usoweb3"> <input id="usoweb3" type=checkbox> Ninguna de las anteriores </label></p>
+        </fieldset>
+        <p><label>Comentarios adicionales: <textarea></textarea></label></p>
+        <input type="submit" value="Enviar" />
+    </form>
+</main>
+    
+    <footer>
+        <img src="images/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="images/CSS3.png"  alt="CSS Válido!"  />
+  </footer>
+</body>
+</html>

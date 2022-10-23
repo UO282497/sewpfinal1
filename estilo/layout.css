@@ -1,0 +1,26 @@
+/************************
+/* Autor: Sergio del Rey
+/* Descripción
+/************************/
+/*Especifidad 001*/
+body { display: grid;
+    grid-template-areas: 
+        "h h h"
+        "n b t"
+        "n b t"
+        "f f f";
+
+}
+/*Especifidad 001*/
+main { grid-area: b;
+}
+/*Especifidad 001*/
+nav     { grid-area: n;}
+/*Especifidad 001*/
+footer   { grid-area: f;}
+/*Especifidad 001*/
+table {grid-area: t;
+}
+/*Especifidad 001*/
+header {grid-area: h;
+}
